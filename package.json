@@ -1,6 +1,6 @@
 {
   "name": "gulp-inject-template",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Replaces require calls to html files with precompiled lodash/underscore template functions in your JS files",
   "main": "index.js",
   "scripts": {
