@@ -1,0 +1,37 @@
+{
+  "name": "gulp-inject-template",
+  "version": "0.1.0",
+  "description": "Inject Lo-Dash / underscore templates into JS files via require calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "JASMINE_CONFIG_PATH=test/jasmine.json jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandremeunier/gulp-inject-template.git"
+  },
+  "keywords": [
+    "gulp",
+    "templates",
+    "gulpplugin"
+  ],
+  "author": "Alexandre Meunier <alexandre.meunier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandremeunier/gulp-inject-template/issues"
+  },
+  "homepage": "https://github.com/alexandremeunier/gulp-inject-template#readme",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "lodash.template": "^3.6.2",
+    "replacestream": "^4.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.1",
+    "jasmine": "^2.3.2",
+    "vinyl": "^0.5.1"
+  }
+}
