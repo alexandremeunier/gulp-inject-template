@@ -5,7 +5,6 @@ var replaceStream = require('replacestream');
 var path = require('path');
 var fs = require('fs');
 var lodashTemplate = require('lodash.template');
-var chalk = require('chalk');
 
 var PLUGIN_NAME = 'injectTemplate';
 
@@ -14,14 +13,14 @@ var htmlRequirePattern =  /require\(['"](.*\.html)['"]\)?/gi;
 function log(srcfilepath, templatefilepath) {
   gutil.log(
     'Injecting', 
-    chalk.cyan(
+    gutil.colors.green(
       path.relative(
         process.cwd(), 
         path.resolve(path.dirname(srcfilepath), templatefilepath)
       )
     ), 
     'into', 
-    chalk.green(
+    gutil.colors.red(
       path.relative(process.cwd(), srcfilepath)
     )
   );

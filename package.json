@@ -1,7 +1,7 @@
 {
   "name": "gulp-inject-template",
   "version": "0.2.0",
-  "description": "Inject Lo-Dash / underscore templates into JS files via require calls",
+  "description": "Replaces require calls to html files with precompiled lodash/underscore template functions in your JS files",
   "main": "index.js",
   "scripts": {
     "test": "JASMINE_CONFIG_PATH=test/jasmine.json jasmine"
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "gulp",
+    "lodash",
+    "underscore",
     "templates",
     "gulpplugin"
   ],
@@ -22,7 +24,6 @@
   },
   "homepage": "https://github.com/alexandremeunier/gulp-inject-template#readme",
   "dependencies": {
-    "chalk": "^1.1.0",
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
     "lodash.template": "^3.6.2",
