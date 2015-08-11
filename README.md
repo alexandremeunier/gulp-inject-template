@@ -1,6 +1,7 @@
 # `gulp-inject-template`
 
 ![Build Status](https://circleci.com/gh/alexandremeunier/gulp-inject-template/tree/master.svg?style=shield)
+[![npm version](https://badge.fury.io/js/gulp-inject-template.svg)](http://badge.fury.io/js/gulp-inject-template)
 
 Replaces `require` calls to html files with precompiled lodash/underscore template functions in your JS files. 
 

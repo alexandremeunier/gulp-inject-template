@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/alexandremeunier/gulp-inject-template#readme",
   "dependencies": {
-    "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
     "lodash.template": "^3.6.2",
     "replacestream": "^4.0.0",
